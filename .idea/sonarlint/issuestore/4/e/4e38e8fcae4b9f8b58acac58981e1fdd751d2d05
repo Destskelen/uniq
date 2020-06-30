@@ -1,0 +1,37 @@
+
+g
+java:S2095-"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(“Åùÿÿÿÿ
+c
+java:S2095+"HUse try-with-resources or close this "FileReader" in a "finally" clause.(ÕÇƒ—øÿÿÿÿ
+q
+java:S1192"[Define a constant instead of duplicating this literal "Main <word|regexp> <file> " 3 times.(ŠÃ‚¨
+1
+java:S3626E"Remove this redundant jump.(ûÁİ…
+1
+java:S3626K"Remove this redundant jump.(ûÁİ…
+1
+java:S3626P"Remove this redundant jump.(ûÁİ…
+1
+java:S3626U"Remove this redundant jump.(ûÁİ…
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÈÃú›ıÿÿÿÿ
+H
+java:S1135"2Complete the task associated to this TODO comment.(ğ‹€É
+N	java:S106?"9Replace this use of System.out or System.err by a logger.(øÙÎ²
+N	java:S106A"9Replace this use of System.out or System.err by a logger.(´˜®ß
+H
+java:S1135D"2Complete the task associated to this TODO comment.(ğ‹€É
+N	java:S106G"9Replace this use of System.out or System.err by a logger.(ò¼¹Ë
+H
+java:S1135J"2Complete the task associated to this TODO comment.(ğ‹€É
+N	java:S106M"9Replace this use of System.out or System.err by a logger.(ã¥æÕ
+H
+java:S1135O"2Complete the task associated to this TODO comment.(ğ‹€É
+N	java:S106R"9Replace this use of System.out or System.err by a logger.(¹ú¼Ğ
+H
+java:S1135T"2Complete the task associated to this TODO comment.(ğ‹€É
+Q	java:S125"<This block of commented-out lines of code should be removed.(Ã²ñó
+V	java:S1259"<This block of commented-out lines of code should be removed.(œ‡‘ˆùÿÿÿÿ
+Q	java:S125C"<This block of commented-out lines of code should be removed.(Ã²ñó
+Q	java:S125I"<This block of commented-out lines of code should be removed.(Ã²ñó
+Q	java:S125N"<This block of commented-out lines of code should be removed.(Ã²ñó
+Q	java:S125S"<This block of commented-out lines of code should be removed.(Ã²ñó
