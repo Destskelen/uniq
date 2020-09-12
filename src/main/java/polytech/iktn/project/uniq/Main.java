@@ -13,7 +13,7 @@ public class Main {
         boolean uniqeMode = false; // Флаг только уникальные строки
         boolean countMode = false; // Флаг вывод с префиксом
 
-        loop: for (index = 0; index < args.length; index++) {
+        for (index = 0; index < args.length; index++) {
             String opt = args[index];
             switch (opt) {
                 case "-i":
@@ -29,6 +29,10 @@ public class Main {
                     index++;
                     try {
                         numIgnor = Integer.parseInt(args[index]); // Устанавливаем число игнорируемых символов
+                        if (numIgnor < 0) {
+                            System.err.println("Аргумент ключа -s должен быть положительным");
+                            System.exit(1);
+                        }
                     } catch (NumberFormatException e) {
                         System.err.println("Ошибка в аргументе s");
                         System.exit(1);
@@ -44,7 +48,7 @@ public class Main {
                     if (!opt.isEmpty() && opt.charAt(0) == '-') {
                         error("Unknown option: '" + opt + "'");
                     }
-                    break loop;
+                    break;
             }
         }
         /*if (index >= args.length) {
